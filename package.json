@@ -14,7 +14,7 @@
     "scripts": {
         "coverage": "jest --collectCoverageFrom=app/**.js --coverage src",
         "lint": "eslint src",
-        "start": "nodemon src/server.js",
+        "start": "node src/server.js",
         "start:prod": "node src/server.js",
         "test": "jest"
     },
